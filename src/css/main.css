@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+#q4Wrapper {
+  background-color: #2A3035;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+#q4Wrapper h1, #q4Wrapper h3 {
+  margin: 0;
+}
+#q4Wrapper h1 {
+  font-size: 48px;
+}
+#q4Wrapper h3 {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+#q4Wrapper header, #q4Wrapper footer {
+  background-color: #22272B;
+}
+#q4Wrapper header {
+  padding: 20px;
+}
+#q4Wrapper footer {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+#q4Wrapper article {
+  text-align: center;
+}
+#q4Wrapper article img {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+#q4Wrapper a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease;
+}
+#q4Wrapper a:hover {
+  transform: scale(1.05);
+}
+#q4Wrapper a span {
+  opacity: 0.5;
+}
+
+.layout_inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+.layout_header {
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: #23272a;
+}
+
+/* Begin styling the report items here! */
+.reports {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .reports {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .reports {
+    grid-template-columns: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+}
+main {
+  background-color: #2b3034;
+}
+
+.layout_title {
+  padding: 20px 0;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight:bolder;
+  font-size: 2.5em;
+}
+
+.reports_docs {
+  background-color: #23272a;
+  border-radius: 2px;
+  padding: 10px 25px;
+}
+
+.reports_item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reports_title{
+  color: #fff;
+  margin: 0;
+}
+
+.reports_title > a{
+  color: #fff;
+  margin: 0;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.reports_title > a >span{
+  font-size: 12px;
+  color:#909294; 
+}
+
+.reports_cover {
+  border-radius: 5px;
+  box-shadow: 3px 3px 9px -2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 3px 9px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 9px -2px rgba(0,0,0,0.75);
+  margin-bottom: 10px;
+}
