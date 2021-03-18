@@ -5,4 +5,5 @@ If you have Node.js installed on your machine, running the project through http-
 $ npm install
 
 $ npm start
+
 Otherwise, simply open the index.html file located within the src folder in your favourite web browser.
